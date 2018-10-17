@@ -58,7 +58,7 @@ MLATCLIENTTAG="v0.2.6"
 
 ## WHIPTAIL DIALOGS
 
-BACKTITLETEXT="ADS-B Exchange Setup Script"
+BACKTITLETEXT="FreedarUK Setup Script"
 
 whiptail --backtitle "$BACKTITLETEXT" --title "$BACKTITLETEXT" --yesno "Thanks for choosing to share your data with Freedar.UK!\n\nFreedarUK is a co-op of ADS-B/Mode S/MLAT feeders from around the world. This script will configure your current your ADS-B receiver to share your feeders data with FreedarUK.\n\nWould you like to continue setup?" 13 78
 CONTINUESETUP=$?
