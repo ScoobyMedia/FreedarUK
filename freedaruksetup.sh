@@ -168,7 +168,7 @@ fi
     echo "" >> $LOGFILE
 
     # Create the mlat-client maintenance script.
-    tee freedar-mlat_maint.sh > /dev/null <<EOF
+    tee freedaruk-mlat_maint.sh > /dev/null <<EOF
 #!/bin/sh
 while true
   do
@@ -181,7 +181,7 @@ EOF
     sleep 0.25
 
     # Set execute permissions on the mlat-client maintenance script.
-    chmod +x freedar-mlat_maint.sh >> $LOGFILE
+    chmod +x freedaruk-mlat_maint.sh >> $LOGFILE
 
     echo 52
     sleep 0.25
