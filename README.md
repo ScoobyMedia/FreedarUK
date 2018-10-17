@@ -8,7 +8,7 @@ Running the following commands will download the contents of this repository and
 
     sudo apt-get install git
     git clone https://github.com/WiganPI/FreedarUK.git
-    cd adsb-exchange
+    cd FreedarUK
     chmod +x freedarsetup.sh
     sudo ./freedarsetup.sh
     
