@@ -9,8 +9,8 @@ Running the following commands will download the contents of this repository and
     sudo apt-get install git
     git clone https://github.com/WiganPI/FreedarUK.git
     cd FreedarUK
-    chmod +x freedarsetup.sh
-    sudo ./freedarsetup.sh
+    chmod +x freedaruksetup.sh
+    sudo ./freedaruksetup.sh
     
 **After completing the setup do not delete this repository.**
 
