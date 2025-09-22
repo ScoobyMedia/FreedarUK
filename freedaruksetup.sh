@@ -173,7 +173,7 @@ fi
 while true
   do
     sleep 30
-    /usr/bin/mlat-client --input-type dump1090 --input-connect localhost:30005 --lat $RECEIVERLATITUDE --lon $RECEIVERLONGITUDE --alt $RECEIVERALTITUDE --user $FREEDARUKUSERNAME --server mlat.virtualradaruk.com:41112 --no-udp --results beast,connect,localhost:30104
+    /usr/bin/mlat-client --input-type dump1090 --input-connect localhost:30005 --lat $RECEIVERLATITUDE --lon $RECEIVERLONGITUDE --alt $RECEIVERALTITUDE --user $FREEDARUKUSERNAME --server mlat.freedar.uk:41112 --no-udp --results beast,connect,localhost:30104
   done
 EOF
 
@@ -225,7 +225,7 @@ while true
   do
     sleep 30
     #/bin/nc 127.0.0.1 30005 | /bin/nc mlat.virtualradaruk.com $RECEIVERPORT
-    /usr/bin/socat -u TCP:localhost:30005 TCP:mlat.virtualradaruk.com:$RECEIVERPORT
+    /usr/bin/socat -u TCP:localhost:30005 TCP:mlat.freedar.uk:$RECEIVERPORT
   done
 EOF
 
