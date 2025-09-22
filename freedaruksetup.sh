@@ -224,7 +224,7 @@ EOF
 while true
   do
     sleep 30
-    #/bin/nc 127.0.0.1 30005 | /bin/nc mlat.virtualradaruk.com $RECEIVERPORT
+    #/bin/nc 127.0.0.1 30005 | /bin/nc mlat.freedar.uk $RECEIVERPORT
     /usr/bin/socat -u TCP:localhost:30005 TCP:mlat.freedar.uk:$RECEIVERPORT
   done
 EOF
